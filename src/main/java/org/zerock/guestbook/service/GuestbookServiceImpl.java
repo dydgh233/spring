@@ -9,7 +9,7 @@ import org.zerock.guestbook.repository.GuestbookRepository;
 
 @Service
 @Log4j2
-@RequiredArgsConstructor//의존성 자동 주입
+@RequiredArgsConstructor//의존성 자동 주입 dd
 public class GuestbookServiceImpl implements GuestbookService {
     private final GuestbookRepository repository; //반드시 final로 선언
     @Override
